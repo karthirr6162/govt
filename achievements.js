@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Generate image gallery
     for (let i = 1; i <= 28; i++) {
         let img = document.createElement("img");
-        img.src = `achieve/achievements_${i}.jpg`;
+        img.src = `achievements_${i}.jpg`;
         img.alt = `Achievement ${i}`;
         img.addEventListener("click", function () {
             openModal(img.src);
